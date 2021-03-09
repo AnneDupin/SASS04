@@ -1,0 +1,10 @@
+/* les variables */
+$magicmint: #A9F0D1;
+
+.corps {
+  font-family: Arial, Tahoma, sans-serif;
+  &-next {
+    @extend .corps;
+    color: $magicmint;
+  }
+}
